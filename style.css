@@ -1,0 +1,141 @@
+*,
+* ::before,
+* ::after {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html{
+    background-color: rgb(182, 255, 255);
+}
+.grade{
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   margin: auto; 
+   margin-top: 150px;
+   border-radius: 20px;
+   
+  
+
+}
+.p{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    height: 100px;
+    color: rgb(182, 255, 255);
+    width: 100px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    font-weight: 1000;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;   
+    
+}
+.head:hover{
+    visibility: 70%;
+}
+
+.input{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    background-color: black;
+    
+    
+    
+
+}
+#line{
+    color:  rgb(182, 255, 255);
+    width: px;
+    height: 100px;
+    font-size: 100px;
+   margin: auto;
+   padding-bottom: 100px;
+    margin-left: -10px;
+    padding: 10px;
+}
+.i{
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+    margin-right: 30px;
+    
+    border-spacing: 30px;
+    border-style: dotted;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    color: white;
+    background-color: black;
+
+   
+   
+}
+.n{
+    font-size: 20px;
+    color: blanchedalmond;
+    
+}
+.in{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.button{
+    height: 20px;
+    width: 200px;
+    color: blue;
+    font-weight: bold;
+    margin: 10px;
+    background-color: black;
+    border: hidden;
+    border-color: black;
+    font-size: 15px;
+}
+.result{
+    color: blanchedalmond;
+    font-size: 10px;
+    height: 100px;
+    width: 600px; 
+   
+  
+     
+}
+.s{
+    margin: auto;
+    padding: 20px 110px;
+    color: red;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+   
+    
+}
+.take{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 30px;
+  
+   
+    
+}
+span{
+    color: rgb(16, 117, 117);
+
+}

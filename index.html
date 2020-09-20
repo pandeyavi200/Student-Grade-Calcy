@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grade Calcy</title>
+</head>
+
+<body>
+    <div class="grade">
+
+        <div class="p">
+            <div class="head">
+                <h2 id="line">|</h2>
+                Student <br> Grade <br> Calculator
+
+            </div>
+            <div class="take">
+            <div class="input">
+                <div class="in">
+                    <h1 class="n">Physicys</h1>
+
+                    <input type="number" class="i" id="1">
+                </div>
+                <div class="in">
+                    <h1 class="n">Chmestry</h1>
+                    <input type="number" class="i" id="2">
+                </div>
+                <div class="in">
+                    <h1 class="n">Biology</h1>
+                    <input type="number" class="i" id="3">
+                </div>
+                <div class="in">
+                    <h1 class="n">Maths</h1>
+                    <input type="number" class="i" id="4">
+                </div>
+                <button type="submit" class="button" onclick="calcy()">Calculate percentage</button>
+            </div>
+        </div>
+        </div>
+        <div class="result">
+            <div class="s">
+                YOUR MARKS OUT OF 400 IS <span id="total"></span> <br> AND OBTAINED PERCENTAGE IS <span id="percent"></span>
+                <br>
+                YOUR GRADE IS <span id="grade"></span> YOU ARE <span id="status"></span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
